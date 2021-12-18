@@ -54,7 +54,7 @@
                     text: "Login Successfully",
                     type: "success"
                 }, function() {
-                    window.location = "<?= base_url('Home') ?>";
+                    window.location = "<?= base_url('Apps') ?>";
                 });
             }
 

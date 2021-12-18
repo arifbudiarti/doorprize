@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- icon -->
     <link rel="icon" href="<?= base_url(); ?>/public/assets/img/logo/logo.png" type="image/x-icon" />
-    <title>E-Marketing | Nusamed HC</title>
+    <title>Doorprize | Nusamed HC</title>
     <!-- css -->
     <link href="<?= base_url(); ?>/public/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?= base_url(); ?>/public/assets/font-awesome/css/font-awesome.css" rel="stylesheet">

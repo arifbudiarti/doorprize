@@ -1,0 +1,260 @@
+CRITICAL - 2021-12-17 09:53:34 --> Undefined variable: child
+#0 J:\xampp_7\htdocs\doorprize\app\Views\Apps\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'J:\\xampp_7\\htdo...', 7, Array)
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(214): include('J:\\xampp_7\\htdo...')
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('Apps/index', Array, true)
+#4 J:\xampp_7\htdocs\doorprize\app\Controllers\Apps.php(19): view('Apps/index', Array)
+#5 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Apps->index()
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apps))
+#7 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-17 09:54:12 --> Undefined variable: type
+#0 J:\xampp_7\htdocs\doorprize\app\Views\Apps\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'J:\\xampp_7\\htdo...', 49, Array)
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(214): include('J:\\xampp_7\\htdo...')
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('Apps/index', Array, true)
+#4 J:\xampp_7\htdocs\doorprize\app\Controllers\Apps.php(21): view('Apps/index', Array)
+#5 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Apps->index()
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apps))
+#7 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-17 10:49:41 --> Class 'App\Filters\UsersAuthFilter' not found
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/Apps', 'before')
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-17 10:51:48 --> Class 'App\Filters\UsersAuthFilter' not found
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/Apps', 'before')
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-17 10:51:50 --> Class 'App\Filters\UsersAuthFilter' not found
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/Apps', 'before')
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-17 10:52:59 --> Class 'App\Filters\UsersAuthFilter' not found
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/Apps', 'before')
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-17 10:53:00 --> Class 'App\Filters\UsersAuthFilter' not found
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/Apps', 'before')
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-17 10:53:01 --> Class 'App\Filters\UsersAuthFilter' not found
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/Apps', 'before')
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-17 10:53:01 --> Class 'App\Filters\UsersAuthFilter' not found
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/Apps', 'before')
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-17 10:53:02 --> Class 'App\Filters\UsersAuthFilter' not found
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/Apps', 'before')
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-17 11:21:53 --> Undefined property: App\Controllers\Data::$serversideModel
+#0 J:\xampp_7\htdocs\doorprize\app\Controllers\Data.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'J:\\xampp_7\\htdo...', 21, Array)
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data->event()
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-17 12:11:50 --> Class 'App\Models\ServersideModel' not found
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-17 13:47:38 --> Cannot add or update a child row: a foreign key constraint fails (`doorprize`.`event_list`, CONSTRAINT `fk_key` FOREIGN KEY (`auth_key`) REFERENCES `auth_users` (`auth_key`))
+CRITICAL - 2021-12-17 13:47:38 --> Cannot add or update a child row: a foreign key constraint fails (`doorprize`.`event_list`, CONSTRAINT `fk_key` FOREIGN KEY (`auth_key`) REFERENCES `auth_users` (`auth_key`))
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ev...', 0)
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 J:\xampp_7\htdocs\doorprize\app\Controllers\Action.php(26): CodeIgniter\Model->insert(Array)
+#8 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Action->event('1')
+#9 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Action))
+#10 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-17 14:10:48 --> Too few arguments to function App\Controllers\Apps::participant(), 0 passed in J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Apps->participant()
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apps))
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-17 14:20:34 --> Cannot add or update a child row: a foreign key constraint fails (`doorprize`.`event_prize`, CONSTRAINT `fk_list` FOREIGN KEY (`event_id_list`) REFERENCES `event_list` (`event_id_list`))
+CRITICAL - 2021-12-17 14:20:34 --> Cannot add or update a child row: a foreign key constraint fails (`doorprize`.`event_prize`, CONSTRAINT `fk_list` FOREIGN KEY (`event_id_list`) REFERENCES `event_list` (`event_id_list`))
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ev...', 0)
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 J:\xampp_7\htdocs\doorprize\app\Controllers\Action.php(54): CodeIgniter\Model->insert(Array)
+#8 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Action->prize('1')
+#9 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Action))
+#10 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-17 14:20:40 --> Cannot add or update a child row: a foreign key constraint fails (`doorprize`.`event_prize`, CONSTRAINT `fk_list` FOREIGN KEY (`event_id_list`) REFERENCES `event_list` (`event_id_list`))
+CRITICAL - 2021-12-17 14:20:40 --> Cannot add or update a child row: a foreign key constraint fails (`doorprize`.`event_prize`, CONSTRAINT `fk_list` FOREIGN KEY (`event_id_list`) REFERENCES `event_list` (`event_id_list`))
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ev...', 0)
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 J:\xampp_7\htdocs\doorprize\app\Controllers\Action.php(54): CodeIgniter\Model->insert(Array)
+#8 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Action->prize('1')
+#9 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Action))
+#10 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-17 14:21:37 --> Undefined variable: id_list
+#0 J:\xampp_7\htdocs\doorprize\app\Views\Apps\prize.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'J:\\xampp_7\\htdo...', 45, Array)
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(214): include('J:\\xampp_7\\htdo...')
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('Apps/prize', Array, true)
+#4 J:\xampp_7\htdocs\doorprize\app\Controllers\Apps.php(42): view('Apps/prize', Array)
+#5 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Apps->prize('2')
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apps))
+#7 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-17 14:22:29 --> Undefined variable: id
+#0 J:\xampp_7\htdocs\doorprize\app\Views\Apps\prize.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'J:\\xampp_7\\htdo...', 45, Array)
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(214): include('J:\\xampp_7\\htdo...')
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('Apps/prize', Array, true)
+#4 J:\xampp_7\htdocs\doorprize\app\Controllers\Apps.php(43): view('Apps/prize', Array)
+#5 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Apps->prize('2')
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apps))
+#7 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-17 14:22:30 --> Undefined variable: id
+#0 J:\xampp_7\htdocs\doorprize\app\Views\Apps\prize.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'J:\\xampp_7\\htdo...', 45, Array)
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(214): include('J:\\xampp_7\\htdo...')
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('Apps/prize', Array, true)
+#4 J:\xampp_7\htdocs\doorprize\app\Controllers\Apps.php(43): view('Apps/prize', Array)
+#5 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Apps->prize('2')
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apps))
+#7 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-17 15:15:35 --> Unknown column 'event_id_list' in 'where clause'
+CRITICAL - 2021-12-17 15:15:35 --> Unknown column 'event_id_list' in 'where clause'
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 J:\xampp_7\htdocs\doorprize\app\Models\ServersideModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 J:\xampp_7\htdocs\doorprize\app\Controllers\Data.php(122): App\Models\ServersideModel->get_datatables('v_participant', Array, Array, Array, 'event_id_list=2...')
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data->participant('2')
+#7 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 15:17:32 --> Unknown column 'event_id_list' in 'where clause'
+CRITICAL - 2021-12-17 15:17:32 --> Unknown column 'event_id_list' in 'where clause'
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 J:\xampp_7\htdocs\doorprize\app\Models\ServersideModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 J:\xampp_7\htdocs\doorprize\app\Controllers\Data.php(122): App\Models\ServersideModel->get_datatables('v_participant', Array, Array, Array, 'event_id_list=2...')
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data->participant('2')
+#7 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 15:20:24 --> Unknown column 'event_id_list' in 'where clause'
+CRITICAL - 2021-12-17 15:20:24 --> Unknown column 'event_id_list' in 'where clause'
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 J:\xampp_7\htdocs\doorprize\app\Models\ServersideModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 J:\xampp_7\htdocs\doorprize\app\Controllers\Data.php(122): App\Models\ServersideModel->get_datatables('v_participant', Array, Array, Array, 'event_id_list=2...')
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data->participant('2')
+#7 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 15:20:38 --> Unknown column 'event_id_list' in 'where clause'
+CRITICAL - 2021-12-17 15:20:38 --> Unknown column 'event_id_list' in 'where clause'
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 J:\xampp_7\htdocs\doorprize\app\Models\ServersideModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 J:\xampp_7\htdocs\doorprize\app\Controllers\Data.php(122): App\Models\ServersideModel->get_datatables('v_participant', Array, Array, Array, 'event_id_list=2...')
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data->participant('2')
+#7 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-17 15:21:26 --> Unknown column 'deleted_at' in 'where clause'
+CRITICAL - 2021-12-17 15:21:26 --> Unknown column 'deleted_at' in 'where clause'
+#0 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 J:\xampp_7\htdocs\doorprize\app\Models\ServersideModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 J:\xampp_7\htdocs\doorprize\app\Controllers\Data.php(122): App\Models\ServersideModel->get_datatables('v_participant', Array, Array, Array, 'event_id_list=2...')
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Data->participant('2')
+#7 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#8 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-17 16:06:23 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sizeof(): Param...', 'J:\\xampp_7\\htdo...', 11, Array)
+#1 J:\xampp_7\htdocs\doorprize\app\Views\Apps\play.php(11): sizeof('2')
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(214): include('J:\\xampp_7\\htdo...')
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('Apps/play', Array, true)
+#5 J:\xampp_7\htdocs\doorprize\app\Controllers\Apps.php(59): view('Apps/play', Array)
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Apps->play('4')
+#7 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apps))
+#8 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-17 16:06:55 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sizeof(): Param...', 'J:\\xampp_7\\htdo...', 11, Array)
+#1 J:\xampp_7\htdocs\doorprize\app\Views\Apps\play.php(11): sizeof(2)
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(214): include('J:\\xampp_7\\htdo...')
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('Apps/play', Array, true)
+#5 J:\xampp_7\htdocs\doorprize\app\Controllers\Apps.php(59): view('Apps/play', Array)
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Apps->play('4')
+#7 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apps))
+#8 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-17 16:07:23 --> sizeof(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sizeof(): Param...', 'J:\\xampp_7\\htdo...', 11, Array)
+#1 J:\xampp_7\htdocs\doorprize\app\Views\Apps\play.php(11): sizeof(2)
+#2 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(214): include('J:\\xampp_7\\htdo...')
+#3 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('Apps/play', Array, true)
+#5 J:\xampp_7\htdocs\doorprize\app\Controllers\Apps.php(59): view('Apps/play', Array)
+#6 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Apps->play('4')
+#7 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apps))
+#8 J:\xampp_7\htdocs\doorprize\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 J:\xampp_7\htdocs\doorprize\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

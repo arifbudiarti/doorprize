@@ -9,7 +9,7 @@
     </div>
     <ul class="nav navbar-top-links navbar-right">
         <li>
-            <span class="m-r-sm text-muted welcome-message">Welcome to E-Marketing Nusamed Healthcare</span>
+            <span class="m-r-sm text-muted welcome-message">Welcome to Doorprize Nusamed Healthcare</span>
         </li>
         <li>
             <a href="<?= site_url('Apps'); ?>">

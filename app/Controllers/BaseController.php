@@ -35,7 +35,7 @@ class BaseController extends Controller
      *
      * @var array
      */
-    protected $helpers = [];
+    protected $helpers = ['form', 'url', 'menu_helper'];
 
     /**
      * Constructor.
@@ -44,9 +44,17 @@ class BaseController extends Controller
     {
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
+        date_default_timezone_set('Asia/Jakarta'); // Added user timezone
 
         // Preload any models, libraries, etc, here.
 
         // E.g.: $this->session = \Config\Services::session();
+        $this->eventList = new \App\Models\EventListModel();
+        $this->eventPrize = new \App\Models\EventPrizeModel();
+        $this->participant = new \App\Models\ParticipantModel();
+        $this->units = new \App\Models\UnitsModel();
+        $this->users = new \App\Models\UsersModel();
+        $this->doorprize = new \App\Models\DoorprizeModel();
+        $this->serversideModel = new \App\Models\ServersideModel();
     }
 }
